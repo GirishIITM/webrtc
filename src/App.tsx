@@ -1,19 +1,14 @@
-import { useState,useEffect } from 'react'
 import './App.css'
 import {Route,Routes} from "react-router-dom"
-import Home from "pages/Home.tsx"
+import Home from './pages/Home'
 
 function App() {
-
-  useEffect(() => {
-    
-    }, [])
-
    
   return (
     <div className='app'>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
+
       </Routes> 
    </div>
   )
